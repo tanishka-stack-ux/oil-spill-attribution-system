@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: #081321;
+}
+
+.header {
+  height: 70px;
+  background: #0b1728;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 25px;
+  border-bottom: 1px solid #263b52;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.header p {
+  margin: 3px 0 0;
+  color: #9eb2c7;
+  font-size: 12px;
+}
+
+.online {
+  color: #4ade80;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.content {
+  height: calc(100vh - 70px);
+  display: flex;
+}
+
+.sidebar {
+  width: 280px;
+  padding: 20px;
+  background: #0b1728;
+  color: white;
+  border-right: 1px solid #263b52;
+}
+
+.sidebar h2 {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.sidebar h3 {
+  color: #9eb2c7;
+  font-size: 14px;
+}
+
+.count {
+  font-size: 42px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.sidebar p {
+  color: #9eb2c7;
+  font-size: 13px;
+}
+
+.sidebar hr {
+  border: none;
+  border-top: 1px solid #263b52;
+  margin: 25px 0;
+}
+
+.error {
+  color: #ff6b6b;
+  font-size: 13px;
+  margin-top: 15px;
+}
+
+.map {
+  flex: 1;
+  height: 100%;
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+}
